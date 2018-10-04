@@ -6,6 +6,6 @@ public class Furgoneta extends VehiculoCarga{
     @Override
     public String toString() {
         return "La furgoneta tiene matrícula: " + getMatricula() +
-                " y puede soportar una carga máxima de " + getPma() + ".";
+                " y puede soportar una carga máxima de " + getPma() + " toneladas.";
     }
 }

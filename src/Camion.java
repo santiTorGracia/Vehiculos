@@ -12,6 +12,6 @@ public class Camion extends VehiculoCarga {
     @Override
     public String toString() {
         return "El camión tiene matrícula: " + getMatricula() +
-                " y puede soportar una carga máxima de " + getPma() + ".";
+                " y puede soportar una carga máxima de " + getPma() + " toneladas.";
     }
 }
