@@ -8,4 +8,10 @@ public class Microbus extends VehiculoGente {
     public double getPrecioAlquiler(int dias) {
         return super.getPrecioAlquiler(dias) + getPlazas()*2;
     }
+
+    @Override
+    public String toString() {
+        return "La furgoneta tiene matrícula: " + getMatricula() + " y "
+                + getPlazas() + " plazas.";
+    }
 }
