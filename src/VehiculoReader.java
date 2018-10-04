@@ -18,7 +18,7 @@ public class VehiculoReader {
     public VehiculoReader(String filename) throws FileNotFoundException {
         BufferedReader br = new BufferedReader(new FileReader(new File(filename)));
         Stream<String> stream = br.lines();
-        lines = (String[]) stream.toArray();
+        lines = stream.toArray(String[]::new);
     }
 
     public List<Vehiculo> getVehiculos() {
