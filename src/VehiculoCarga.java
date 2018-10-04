@@ -2,8 +2,8 @@ public class VehiculoCarga extends Vehiculo {
     private int pma;
 
     @Override
-    public float getPrecioAlquiler(int dias) {
-        float precio = super.getPrecioAlquiler(dias);
+    public double getPrecioAlquiler(int dias) {
+        double precio = super.getPrecioAlquiler(dias);
         return precio + 20*pma;
     }
 

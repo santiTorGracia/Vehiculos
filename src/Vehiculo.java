@@ -1,7 +1,7 @@
 public class Vehiculo {
     private String matricula;
 
-    public float getPrecioAlquiler(int dias){
+    public double getPrecioAlquiler(int dias){
         return 50*dias;
     }
 
