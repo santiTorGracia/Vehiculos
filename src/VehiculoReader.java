@@ -30,7 +30,6 @@ public class VehiculoReader {
             int plORpma = Integer.valueOf(lines[i++]);
             vehiculos.add(getVehiculo(type, matricula, plORpma));
         }
-
         return vehiculos;
     }
 
